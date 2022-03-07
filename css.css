@@ -23,6 +23,12 @@ header {
 header .sticky {
     padding: 10px 0;
   }
+.topnav li {
+  float:right;
+  list-style: none;
+  padding: 0 10px 0 10px;
+
+}
 
 .logo img {
     width: 90px;
