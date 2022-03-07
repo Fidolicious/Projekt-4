@@ -89,7 +89,7 @@ header .sticky {
 /* FOOTER */
 footer {
   background: #BDD4D5;
-  padding: 35px;
+  padding: 35px 20px 0 20px;
 }
 
 .contact-section {
