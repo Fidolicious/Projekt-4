@@ -20,11 +20,10 @@ html {
   width: 100%;
   padding: 25px 0;
   transition: all .3s ease;
-  background-color: #f2f2f2;
+  background: #BDD4D5;
 }
 .navbar.sticky {
   padding: 10px 0;
-  background: #fafafa;
 }
 .navbar .content {
   display: flex;
@@ -39,7 +38,7 @@ html {
   list-style: none;
 }
 .menu-list li a {
-  color: #353854;
+  color: #1A444E;
   font-size: 15px;
   font-weight: 200;
   margin-left: 25px;
@@ -47,7 +46,7 @@ html {
   transition: all .3s ease;
 }
 .menu-list li a:hover{
-  color: #5dd3c9;
+  color: #6b9393;
 }
 
 .logo img {
@@ -55,14 +54,14 @@ html {
 }
 
 
-
+/* FOOTER */
 footer {
-  background: #353854;
+  background: #BDD4D5;
   padding: 35px;
 }
 
 .contact-section {
-  background: #353854;
+  background: #BDD4D5;
   background-size: cover;
   margin-left: 3rem;
 }
