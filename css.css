@@ -14,13 +14,33 @@ html {
   margin: auto;
   padding: 0px 30px;
 }
+/* FØRSTE HEADER */
+
+header {
+    background-color: #BDD4D5;
+    padding: 10px;
+}
+
+.logo img {
+    width: 90px;
+    margin-top: 10px;
+  }
+
+ .topnav input[type=text] {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 17px;
+    font-weight: 100;
+ }
+
 .navbar {
   position: fixed;
   z-index: 5;
   width: 100%;
   padding: 25px 0;
   transition: all .3s ease;
-  background: #BDD4D5;
+  background: #E6ECEC;
 }
 .navbar.sticky {
   padding: 10px 0;
@@ -28,7 +48,8 @@ html {
 .navbar .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
+  margin: -10px 0 -10px 0;
 }
 
 .navbar .menu-list{
@@ -36,6 +57,7 @@ html {
 }
 .menu-list li {
   list-style: none;
+  padding: 0 10px 0 10px;
 }
 .menu-list li a {
   color: #1A444E;
@@ -47,10 +69,6 @@ html {
 }
 .menu-list li a:hover{
   color: #6b9393;
-}
-
-.logo img {
-  width: 70px;
 }
 
 
