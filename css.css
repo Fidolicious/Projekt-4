@@ -26,8 +26,21 @@ header .sticky {
 .topnav li {
   float:right;
   list-style: none;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 0 10px;
+}
 
+.opret {
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  border: solid 1px #93AEAF;
+  background: #93AEAF;
+  padding: 6px 10px 6px 10px;
+  border-radius: 20px;
+}
+
+.login {
+  color: #1A444E;
 }
 
 .topnav li a {
@@ -49,7 +62,6 @@ header .sticky {
 /* NAVIGATION */
 
 .navbar {
-  position: fixed;
   z-index: 5;
   width: 100%;
   padding: 25px 0;
@@ -116,8 +128,8 @@ footer {
 }
 
 .p1 {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 
