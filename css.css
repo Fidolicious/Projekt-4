@@ -26,8 +26,17 @@ header .sticky {
 .topnav li {
   float:right;
   list-style: none;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 0 10px;
+}
 
+.opret {
+  font-weight: 500;
+  color: #89bd9f;
+  text-decoration: none;
+  border: solid 1px #89bd9f;
+  padding: 6px 10px 6px 10px;
+  border-radius: 20px;
+  
 }
 
 .topnav li a {
@@ -49,7 +58,6 @@ header .sticky {
 /* NAVIGATION */
 
 .navbar {
-  position: fixed;
   z-index: 5;
   width: 100%;
   padding: 25px 0;
