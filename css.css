@@ -37,7 +37,10 @@ header .sticky {
   background: #93AEAF;
   padding: 6px 10px 6px 10px;
   border-radius: 20px;
-  
+}
+
+.login {
+  color: #1A444E;
 }
 
 .topnav li a {
@@ -125,8 +128,8 @@ footer {
 }
 
 .p1 {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 
