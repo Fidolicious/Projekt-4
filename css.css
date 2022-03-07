@@ -141,10 +141,16 @@ footer {
   margin-top: 1rem;
 }
 
+.copyright {
+  text-align: center;
+  font-weight: 200;
+}
+
 @media (min-width: 887px) {
   .column {
     float: left;
     width: 25%;
+    padding-left: 25px;
   }
   .columns:after {
     content: "";
