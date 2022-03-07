@@ -69,9 +69,12 @@ footer {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
 }
 
+.contact-logo {
+  height: 50px;
+}
 .contact-icon {
   height: 20px;
 }
@@ -80,25 +83,12 @@ footer {
   height: 25px;
 }
 
-.contact-section h1 {
-  color: #fff;
-  font-size: 25px;
-}
-.footer-h1 {
-  text-align: left;
-}
-
 .p1 {
   font-weight: bold;
   font-size: 18px;
 }
 
-.contact-section h3 {
-  color: #5dd3c9;
-  font-size: 20px;
-  font-weight: 900;
 
-}
 
 .columns:after {
   content: "";
@@ -118,14 +108,11 @@ footer {
   margin-right: 1rem;
   margin-top: 1rem;
 }
-.column1 {
-
-}
 
 @media (min-width: 887px) {
   .column {
     float: left;
-    width: 33.33%;
+    width: 25%;
   }
   .columns:after {
     content: "";
