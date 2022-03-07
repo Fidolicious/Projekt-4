@@ -20,6 +20,9 @@ header {
     background-color: #BDD4D5;
     padding: 10px;
 }
+header .sticky {
+    padding: 10px 0;
+  }
 
 .logo img {
     width: 90px;
@@ -27,19 +30,20 @@ header {
   }
 
  .topnav input[type=text] {
-    display: flex;
     align-items: center;
     justify-content: end;
     font-size: 17px;
     font-weight: 100;
  }
 
+/* NAVIGATION */
+
 .navbar {
   position: fixed;
   z-index: 5;
   width: 100%;
   padding: 25px 0;
-  transition: all .3s ease;
+  transition: all .2s ease;
   background: #E6ECEC;
 }
 .navbar.sticky {
