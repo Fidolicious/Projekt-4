@@ -30,10 +30,11 @@ header .sticky {
 }
 
 .opret {
-  font-weight: 500;
-  color: #89bd9f;
+  font-weight: 300;
+  color: #fff;
   text-decoration: none;
-  border: solid 1px #89bd9f;
+  border: solid 1px #93AEAF;
+  background: #93AEAF;
   padding: 6px 10px 6px 10px;
   border-radius: 20px;
   
