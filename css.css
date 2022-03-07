@@ -30,6 +30,10 @@ header .sticky {
 
 }
 
+.topnav li a {
+  text-decoration: none;
+}
+
 .logo img {
     width: 90px;
     margin-top: 10px;
