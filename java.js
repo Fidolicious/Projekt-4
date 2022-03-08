@@ -1,4 +1,14 @@
 
+// JEANETT //
+
+
+// ANNE-SOFIE //
+
+
+// NICKLAS //
+
+
+// RUNE //
 function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -15,3 +25,8 @@ window.onclick = function(event) {
     }
   }
 }
+
+// ABDULLAHI //
+
+
+// CAROLINE //
