@@ -61,6 +61,18 @@ header .sticky {
     border-radius: 30px;
     border-color: none;
  }
+/* UDDANNELSER */
+.udd {
+  color: #BDD4D5;
+  background-color:#1A444E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uddannelser {
+  font-weight: 300;
+}
 
 /* NAVIGATION */
 
@@ -69,7 +81,7 @@ header .sticky {
   width: 100%;
   padding: 25px 0;
   transition: all .2s ease;
-  background: #1A444E;
+  background: #275561;
 }
 
 .navbar .content {
@@ -192,3 +204,5 @@ footer {
   }
 
 }
+
+
