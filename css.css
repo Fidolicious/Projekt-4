@@ -535,3 +535,17 @@ padding: 40px 40px;
   border-radius: 8px;
   float: right;
   margin: 45px 20px 0 0 ;
+}
+
+.forsidebanner {
+  border: 2px;
+  padding: 60px 0 0 0;
+  background-color: #AAC1C3;
+}
+
+.bannertext {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 23px;
+  padding: 0 10px 80px 40px;
+}
