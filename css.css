@@ -84,13 +84,13 @@ header .sticky {
 }
 .menu-list li {
   list-style: none;
-  padding: 0 15px 0 15px;
+  padding: 0 20px 0 20px;
 }
 .menu-list li a {
   color: #fff;
   font-size: 15px;
   font-weight: 200;
-  margin-left: 25px;
+  margin-left: 0 10px 0 10px;
   text-decoration: none;
   transition: all .3s ease;
 }
