@@ -207,7 +207,7 @@ footer {
 
 /* ........  LOGIN ......... */
 body {
-  --color-error: #cc3333; 
+  --color-error: #cc3333;
   --color-succes: #4bb544;
   --border-radius: 4px;
 }
@@ -222,3 +222,117 @@ body {
 
 
 /* ........  OPRET BRUGER ......... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.......... Bog information ...........*/
+.bookinfo{
+width: auto;
+padding: 40px 40px;
+}
+
+.text{
+  display: inline-block;
+  clear: left;
+  width: 60%;
+  padding: 5px;
+}
+
+.bookpic{
+  float: right;
+}
+
+.contactinfo {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  border-radius: 30px;
+  background-color: #E6ECEC;
+  color: #1A444E;
+  padding: 20px 20px;
+  margin-left: 40px;
+}
+
+.contactcard {
+  padding: 2px 16px;
+  clear: left;
+}
+
+.profilepic{
+  float: right;
+  margin-top: -50px;
+}
+
+.moreads{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #93AEAF;
+  color: #FEFEFE;
+  margin-left: 40px;
+}
