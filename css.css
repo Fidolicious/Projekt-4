@@ -217,8 +217,17 @@ body {
   align-items: center;
   justify-content: center;
   width: auto;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  background: #fff;
 }
 
-
+.container, 
+.form__input, 
+.form__buttom {
+font-size: 17px;
+}
 
 /* ........  OPRET BRUGER ......... */
