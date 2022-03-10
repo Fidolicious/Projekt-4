@@ -32,7 +32,7 @@
     <nav class="navbar">
       <div class="content">
       <ul class="menu-list">
-    
+
         <li><a href="#">Business og digital udvikling</a></li>
         <hr>
         <li><a href="#">Byggeri og teknologi</a></li>
@@ -46,6 +46,40 @@
 
     </div>
     </nav>
+
+<script>
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 7000;	// Time Between Switch
+
+// Image List
+images[0] = "img/billede1.jpg";
+images[1] = "img/billede2.jpg";
+images[2] = "img/billede3.jpg";
+
+// Change Image
+function changeImg(){
+document.slide.src = images[i];
+
+// Check If Index Is Under Max
+if(i < images.length - 1){
+  // Add 1 to Index
+  i++;
+} else {
+  // Reset Back To O
+  i = 0;
+}
+
+// Run function every x seconds
+setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+
+</script>
+
+<img name="slide" width="150" height="200" />
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -82,7 +116,7 @@
     </footer>
 
 
- 
+
   </div>
   </body>
 </html>
