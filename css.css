@@ -521,3 +521,17 @@ padding: 40px 40px;
   color: #FEFEFE;
   margin-left: 40px;
 }
+
+.reklame {
+ border: 2px solid #BDD4D5;
+ border-radius: 30px;
+ margin: 200px 10px 35px 100px;
+ width: 458px;
+ height: 297px;
+
+}
+
+.reklameboeger {
+  border-radius: 8px;
+  float: right;
+  margin: 45px 20px 0 0 ;
