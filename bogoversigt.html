@@ -7,58 +7,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
+    <script src="java.js"></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-collapse">
-        <ul class="menu-list">
-          <li>
-            <a href="#" class="myDropdown">Business og Digital</a>
-            <div class="submenu">
-              <div class="submenuitem">
+    <div class="navbar">
+      <div class="dropdown">
+        <a onclick="myFunction()" class="dropdownmenu">Business og Digital</a>
+          <div id="myDropdown" class="dropdown-content">
+            <div class="header">
+              <h2>Business og Digital udvikling</h2>
+            </div>
+            <div class="row">
+              <div class="column">
                 <h3>Business</h3>
-                <ul>
-                  <li><a href="#">Finansøkonom</a></li>
-                  <li><a href="#">Handelsøkonom</a></li>
-                  <li><a href="#">Logistikøkonom</a></li>
-                  <li><a href="#">Markedføringsøkonom</a></li>
-                  <li><a href="#">Serviceøkonom</a></li>
-                  <li><a href="#">International handel og markedføring</a></li>
-                  <li><a href="#">Inovation og entrepreneurship</a></li>
-                  <li><a href="#">International hospitality management</a></li>
-                  <li><a href="#">Finans</a></li>
-                  <li><a href="#">Financial controller</a></li>
-                  <li><a href="#">E-handel</a></li>
-                  <li><a href="#">Sportsmanagement</a></li>
-                </ul>
+                <a href="#">Finansøkonom</a>
+                <a href="#">Handelsøkonom</a>
+                <a href="#">Logistikøkonom</a>
+                <a href="#">Markedføringsøkonom</a>
+                <a href="#">Serviceøkonom</a>
+                <a href="#">International handel og markedføring</a>
+                <a href="#">Inovation og entrepreneurship</a>
+                <a href="#">International hospitality management</a>
+                <a href="#">Finans</a>
+                <a href="#">Financial controller</a>
+                <a href="#">E-handel</a>
+                <a href="#">Sportsmanagement</a>
               </div>
-              <div class="submenuitem">
-                <h3>Digital</h3>
-                <li><a href="#">Datamatiker</a></li>
-                <li><a href="#">Digital konceptudvikling</a></li>
-                <li><a href="#">Økonomi og IT</a></li>
-                <li><a href="#">Softwareudvikling</a></li>
-                <li><a href="#">Multimediedesigner</a></li>
-                <li><a href="#">IT-sikkerhed</a></li>
-                <li><a href="#">Webudvikling</a></li>
+              <div class="column">
+                <h3>Digital udvikling</h3>
+                <a href="#">Datamatiker</a>
+                <a href="#">Digital konceptudvikling</a>
+                <a href="#">Økonomi og IT</a>
+                <a href="#">Softwareudvikling</a>
+                <a href="#">Multimediedesigner</a>
+                <a href="#">IT-sikkerhed</a>
+                <a href="#">Webudvikling</a>
               </div>
             </div>
-            <a href="#">Byggeri og teknologi</a>
-            <a href="#">Ledelse og administration</a>
-            <a href="#">Pædagogik og undervisning</a>
-            <a href="#">Sundhed og socialt arbejde</a>
-          </li>
-        </ul>
+          </div>
+        </div>
 
+        <a href="#">Byggeri og teknologi</a>
+        <a href="#">Ledelse og administration</a>
+        <a href="#">Pædagogik og undervisning</a>
+        <a href="#">Sundhed og socialt arbejde</a>
       </div>
-    </nav>
-
-    <div class="dropdown">
-      <button onclick="toggleDropdown()" class="dropbtn">Dropdown</button>
-      <div id="myDropdown" class="dropdown-content">
-
-      </div>
-    </div>
-
   </body>
 </html>
