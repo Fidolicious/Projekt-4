@@ -209,7 +209,7 @@ footer {
 body {
   --color-error: #cc3333; 
   --color-succes: #4bb544;
-  --border-radius: 4px;
+  --border-radius: 30px;
 }
 
 .container {
@@ -219,15 +219,114 @@ body {
   width: auto;
   margin: 1rem;
   padding: 2rem;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-  border-radius: var(--border-radius);
-  background: #fff;
 }
 
 .container, 
 .form__input, 
 .form__buttom {
-font-size: 17px;
+font-size: 15px;
+color: #1A444E;
+}
+
+.form--hidden {
+  display: none;
+}
+
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-top: 0;
+}
+
+.form__title {
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form__message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form__message--succes {
+  color: var(--color-succes);
+}
+
+.form__message--error {
+  color: var(--color-error);
+}
+
+.form__input-group {
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  padding: 10px 10px 10px 13px;
+  display: block;
+  width: 300px;
+  padding: 0,75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #f2f2f2;
+  outline: none;
+  background: #f0f0f0;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+  border-color: #93AEAF;
+  background: #fff;
+}
+
+.form__input--error {
+  color: var(--color-error);
+  border: var(--color-error);
+}
+
+.form__input-error-message {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-error);
+}
+
+.form__buttom {
+  font-weight: 200;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.1rem;
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background:#93AEAF;
+}
+
+.form__buttom:hover {
+  background: #759293;
+}
+
+.form__buttom:active {
+  transform: scale(0.98);
+}
+
+.form__text {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.form__link {
+  color: #A1A3A3;
+  text-decoration: none;
+  cursor: pointer; 
+  font-size: 14px;
+}
+
+.form__link:hover {
+  text-decoration: underline;
 }
 
 /* ........  OPRET BRUGER ......... */
