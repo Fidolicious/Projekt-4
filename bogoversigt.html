@@ -5,52 +5,155 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
     <script src="java.js"></script>
   </head>
   <body>
-    <div class="navbar">
-      <div class="dropdown">
-        <a onclick="myFunction()" class="dropdownmenu">Business og Digital</a>
-          <div id="myDropdown" class="dropdown-content">
-            <div class="header">
-              <h2>Business og Digital udvikling</h2>
-            </div>
-            <div class="row">
-              <div class="column">
-                <h3>Business</h3>
-                <a href="#">Finansøkonom</a>
-                <a href="#">Handelsøkonom</a>
-                <a href="#">Logistikøkonom</a>
-                <a href="#">Markedføringsøkonom</a>
-                <a href="#">Serviceøkonom</a>
-                <a href="#">International handel og markedføring</a>
-                <a href="#">Inovation og entrepreneurship</a>
-                <a href="#">International hospitality management</a>
-                <a href="#">Finans</a>
-                <a href="#">Financial controller</a>
-                <a href="#">E-handel</a>
-                <a href="#">Sportsmanagement</a>
-              </div>
-              <div class="column">
-                <h3>Digital udvikling</h3>
-                <a href="#">Datamatiker</a>
-                <a href="#">Digital konceptudvikling</a>
-                <a href="#">Økonomi og IT</a>
-                <a href="#">Softwareudvikling</a>
-                <a href="#">Multimediedesigner</a>
-                <a href="#">IT-sikkerhed</a>
-                <a href="#">Webudvikling</a>
-              </div>
-            </div>
+    <header>
+      <div class="topnav">
+        <a class="logo"><img src="img/bookflip.png" alt="logo"></a>
+        <li><i class='bx bx-heart' id="heart-icon"></i></li>
+        <li><a class="login" href="opret.html">Log ind</a></li>
+        <li> <input class="soeg" type="text" placeholder="Søg på titel, forfatter, emne eller ISBN."></li>
+      </div>
+    </header>
+    <header>
+
+
+        <div class="cart">
+          <h2 class="cart-title">Dine Favoritter</h2>
+          <div class="cart-content">
+          </div>
+          <i class='bx bx-x' id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+
+    <nav class="udd">
+      <div>
+        <h2 class="uddannelser">UDDANNELSER</h2>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <div class="content">
+        <ul class="menu-list">
+          <li><a href="#">Business og digital udvikling</a></li>
+          <hr>
+          <li><a href="#">Byggeri og teknologi</a></li>
+          <hr>
+          <li><a href="#">Ledelse og administration</a></li>
+          <hr>
+          <li><a href="#">Pædagogik og undervisning</a></li>
+          <hr>
+          <li><a href="#">Sundhed og socialt arbejde</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="section-title">Multimediedesigner</h2>
+    <section class="shop container">
+      <!-- Content -->
+      <div class="shop-content">
+      <!-- Box 1 -->
+      <div class="product-box">
+        <img src="img/ironman.svg" alt="" class="product-img">
+        <span class="box-text"><a href="ok.html"><h2 class="product-title">Kommunikation i multimediedesign</h2></a>
+        <p>Kort beskrivelse:
+          "Kommunikation i multimediedesign" er en meget udførlig grundbog <br>
+          til faget kommunikation og formidling på multimediedesigneruddannelsen,<br>
+          men også til andre uddannelser, hvori der indgår multimediedesign,<br>
+          f.eks. datamatiker, designteknolog og mediegrafiker.</p><span class="price">$25</span></span>
+        <i class='bx bx-heart add-cart'></i>
+      </div>
+      <!-- Box 2 -->
+      <div class="product-box">
+        <img src="img/flash.svg" alt="" class="product-img">
+        <span class="box-text"><a href="ok.html"><h2 class="product-title">20 designprincipper</h2></a>
+        <p>Kort beskrivelse:
+          "20 Designprincipper" henvender sig primært til <br> multimediedesignere og grafiske designere,<br>
+          men den kan anvendes af enhver, der beskæftiger sig med visuel kommunikation,<br>
+          usability eller design af brugergrænseflader.</p><span class="price">$13</span></span>
+        <i class='bx bx-heart add-cart'></i>
+      </div>
+      <!-- Box 3 -->
+      <div class="product-box">
+        <img src="img/joker.svg" alt="" class="product-img">
+        <span class="box-text"><a href="ok.html"><h2 class="product-title">Kommunikation i multimediedesign 2</h2></a>
+        <p>Kort beskrivelse:
+          "Kommunikation i multimediedesign" er en meget udførlig grundbog <br> til faget <br>
+          kommunikation og formidling på multimediedesigneruddannelsen,<br>
+          men også til andre uddannelser, hvori der indgår multimediedesign,<br>
+          f.eks. datamatiker, designteknolog og mediegrafiker.</p><span class="price">$31</span></span>
+        <i class='bx bx-heart add-cart'></i>
+      </div>
+      <!-- Box 4 -->
+      <div class="product-box">
+        <img src="img/harley-quinn.svg" alt="" class="product-img">
+        <span class="box-text"><a href="ok.html"><h2 class="product-title">JAVASCRIPT & JQUERY interactive front-end web...</h2></a>
+        <p>Kort beskrivelse:
+          Bogen fremstår som ny, da den kun er blevet brugt hjemme ifbm. <br>
+          cases under uddannelsen,multimediedesigner.<br>
+          Der er ingen overstregninger, æselører eller lignende.</p><span class="price">$31</span></span>
+        <i class='bx bx-heart add-cart'></i>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <br>
+      <div id="kontakt" class="contact-section">
+      <div class="columns">
+        <div class="column">
+          <br><br>
+          <img class="contact-logo" src="img/bookflip.png" alt="logo"> <br>
+        </div>
+        <div class="column">
+          <br>
+          <p> <span class="p1">Lær os at kende</span> </p>
+          <p class="p2"> Om BookFlip <br> Kontakt BookFlip <br> Presse </p> <br>
+        </div>
+          <div class="column">
+           <br>
+            <p><span class="p1">Sikkerhed og vilkår</span> </p>
+            <p class="p2">Sikker handel på BookFlip <br> Brugervilkår <br> Persondatapolitik <br> Cookieindstillinger<br></p>
+          </div>
+          <div class="column">
+            <br>
+            <p><span class="p1">Følg os</span> <div class="media-pic">
+              <a href="#"><img src="img/facebook1.png" alt="Facebook logo"></a>
+            </div> <br>
           </div>
         </div>
-
-        <a href="#">Byggeri og teknologi</a>
-        <a href="#">Ledelse og administration</a>
-        <a href="#">Pædagogik og undervisning</a>
-        <a href="#">Sundhed og socialt arbejde</a>
-      </div>
+        </div>
+        <br>
+        <div class="copyright">
+          <p>&copy; © 2022 BookFlip (CVR: 29197849)</p>
+        </div>
+    </footer>
   </body>
 </html>
