@@ -115,20 +115,26 @@ hr {
 
 /*....... BANNER ......*/
 
-.reklame {
+
+.reklame2 {
  border: 2px solid #BDD4D5;
  border-radius: 30px;
  margin: 200px 10px 35px 100px;
- width: 458px;
- height: 297px;
-
+ width: 558px;
+ height: 397px;
 }
 
-.reklameboeger {
+.reklameboeger2 {
+
+  position: center;
   border-radius: 8px;
-  float: right;
-  margin: 45px 20px 0 0 ;
+  margin: 100px 0 0 400px;
 }
+
+.boginfo{
+  padding: 50px 0 0 30px;
+}
+
 
 .forsidebanner {
   border: 2px;
@@ -147,12 +153,6 @@ hr {
   float: right;
   margin: -90px 0 0 0 ;
 }
-
-
-
-
-
-
 
 /* FOOTER */
 footer {

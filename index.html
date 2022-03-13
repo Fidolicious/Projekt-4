@@ -56,17 +56,42 @@
       <h2 class="bannertext">Gå på opdagelse i vores store sortiment af brugte studiebøger</h2>
     </div>
 
+<script>
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 7000;	// Time Between Switch
+
+// Image List
+images[0] = "img/billede1.png";
+images[1] = "img/billede2.png";
+images[2] = "img/billede3.png";
+
+// Change Image
+function changeImg(){
+document.slide.src = images[i];
+
+// Check If Index Is Under Max
+if(i < images.length - 1){
+  // Add 1 to Index
+  i++;
+} else {
+  // Reset Back To O
+  i = 0;
+}
+
+// Run function every x seconds
+setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+</script>
+
+    <img class="reklameboeger2" name="slide" width="700" height="450" />
 
 
 
-<div class="reklame">
-
-<img class="reklameboeger" name="slide" width="150" height="200" />
-</div>
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
     <footer>
       <br>
