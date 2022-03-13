@@ -483,8 +483,10 @@ padding: 1rem;
 }
 
 .product-img {
-height: 300px;
+width: 200px;
+height: 200px;
 margin-bottom: .5rem;
+margin-top: 1rem;
 }
 .product-title {
 font-size: 1.1rem;
