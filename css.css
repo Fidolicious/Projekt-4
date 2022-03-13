@@ -140,7 +140,12 @@ hr {
   color: #FFFFFF;
   font-weight: 300;
   font-size: 23px;
-  padding: 0 10px 80px 40px;
+  padding: 0 10px 60px 40px;
+}
+
+.bogikon {
+  float: right;
+  margin: -90px 0 0 0 ;
 }
 
 
@@ -616,7 +621,7 @@ padding: 40px 40px;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  float: right; 
+  float: right;
 }
 
 .active, .dot:hover {
