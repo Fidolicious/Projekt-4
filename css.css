@@ -140,7 +140,12 @@ hr {
   color: #FFFFFF;
   font-weight: 300;
   font-size: 23px;
-  padding: 0 10px 80px 40px;
+  padding: 0 10px 60px 40px;
+}
+
+.bogikon {
+  float: right;
+  margin: -90px 0 0 0 ;
 }
 
 

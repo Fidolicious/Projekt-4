@@ -219,20 +219,6 @@ window.onclick = function(event) {
 // ABDULLAHI //
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var i = 0; 			// Start Point
 var images = [];	// Images Array
 var time = 7000;	// Time Between Switch
