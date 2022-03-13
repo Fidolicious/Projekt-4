@@ -564,7 +564,7 @@ padding: 40px 40px;
 
 /* slider */
 .slideshow-container {
-  max-width: 300px;
+  max-width: 200px;
   position: relative;
   margin: auto;
   float: right;

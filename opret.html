@@ -15,9 +15,9 @@
 <body>
     <header>
         <div class="topnav">
-          <a class="logo"><img src="img/bookflip.png" alt="logo"></a>
+          <a href="index.html" class="logo"><img src="img/bookflip.png" alt="logo"></a>
           <li><a class="opret" href="opret.html">Opret bruger</a></li>
-          <li><a class="login" href="opret.html">Log ind</a></li>
+          <li><a class="login" href="login.html">Log ind</a></li>
           <li> <input class="soeg" type="text" placeholder="Søg på titel, forfatter, emne eller ISBN."></li>
           <button type="submit"><i class="fa fa-search"></i></button>
         </div>
@@ -47,8 +47,11 @@
       </div>
       </nav>
 
+
+<!-- ...... LOGIN ........ -->
+
     <div class="container">
-        <form  class="form" id="login">
+        <form  class="form form--hidden" id="login">
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
@@ -70,25 +73,27 @@
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Ny bruger? Opret en bruger</a>
             </p>
-        
         </form>
 
-        <form  class="form form--hidden" id="createAccount">
+
+<!-- ...... OPRET BRUGER ........ -->
+
+        <form  class="form" id="createAccount">
             <h1 class="form__title">Opret bruger</h1>
             <div class="form__message form__message--error"></div>
 
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Fulde navn">
+                <input type="text" class="form__input" autofocus placeholder="Fulde navn*">
                 <div class="form__input-error-message"></div>
             </div>
 
             <div class="form__input-group">
-                <input type="text" id="signUpbrugernavn" class="form__input" autofocus placeholder="Brugernavn">
+                <input type="text" id="signUpbrugernavn" class="form__input" autofocus placeholder="Brugernavn*">
                 <div class="form__input-error-message"></div>
             </div>
 
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="E-mail">
+                <input type="text" class="form__input" autofocus placeholder="E-mail*">
                 <div class="form__input-error-message"></div>
             </div>
     
@@ -109,13 +114,13 @@
             </div>
 
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Adgangskode">
+                <input type="password" class="form__input" autofocus placeholder="Adgangskode*">
                 <div class="form__input-error-message"></div>
             </div>
     
 
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Gentag adgangskode">
+                <input type="password" class="form__input" autofocus placeholder="Gentag adgangskode*">
                 <div class="form__input-error-message"></div>
             </div>
     
