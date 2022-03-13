@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
-      <script src="java.js">
-
-      </script> 
+      <script src="java.js"></script>
 </head>
 <body>
 
@@ -65,16 +63,28 @@
       usability eller design af brugergrænseflader.</p>
   </div>
 
-  <div class="slider">
-    <div class="item">
-        <img src="img/20designprincipper.png" alt="20 Designprincipper">
-    </div>
-    <div class="item">
-       <img src="img/design.jpg">
-   </div>
-   <a class="previous" onclick="previousSlide()">&#10094;</a>
-   <a class="next" onclick="nextSlide()">&#10095;</a>
+  <div class="container">
+    <div class="slider">
+      <div class="slider__slides">
+        <div class="slider__slide active">
+
+          <img src="img/20designprincipper.png" alt="20 Designprincipper">
+          <div class="slider__slide">
 </div>
+
+       <img src="img/design.jpg">
+       <div class="slider__slide">
+   </div>
+
+
+   <div id="nav-button--prev" class="slider__nav-button"></div>
+       <div id="nav-button--next" class="slider__nav-button"></div>
+       <div class="slider__nav">
+         <div class="slider__navlink active"></div>
+         <div class="slider__navlink"></div>
+       </div>
+     </div>
+   </div>
 
 
   </div>
