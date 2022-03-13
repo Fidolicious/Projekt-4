@@ -63,28 +63,29 @@
       usability eller design af brugergrænseflader.</p>
   </div>
 
-  <div class="container">
-    <div class="slider">
-      <div class="slider__slides">
-        <div class="slider__slide active">
-
-          <img src="img/20designprincipper.png" alt="20 Designprincipper">
-          <div class="slider__slide">
-</div>
-
-       <img src="img/design.jpg">
-       <div class="slider__slide">
-   </div>
-
-
-   <div id="nav-button--prev" class="slider__nav-button"></div>
-       <div id="nav-button--next" class="slider__nav-button"></div>
-       <div class="slider__nav">
-         <div class="slider__navlink active"></div>
-         <div class="slider__navlink"></div>
-       </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+       <div class="numbertext">1 / 2</div>
+          <img src="img/design.jpg" style="width:100%">
+       <div class="text"></div>
      </div>
-   </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">2 / 2</div>
+         <img src="img/20designprincipper.png" alt="20 Designprincipper" style="width:100%">
+       <div class="text"></div>
+     </div>
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 
 
   </div>
