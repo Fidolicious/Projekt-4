@@ -16,7 +16,7 @@
       <div class="topnav">
         <a href="index.html" class="logo"><img src="img/bookflip.png" alt="logo"></a>
         <li><a class="opret" href="opret.html">Opret bruger</a></li>
-        <li><a class="login" href="opret.html">Log ind</a></li>
+        <li><a class="login" href="login.html">Log ind</a></li>
         <li> <input class="soeg" type="text" placeholder="Søg på titel, forfatter, emne eller ISBN."></li>
         <button type="submit"><i class="fa fa-search"></i></button>
       </div>
@@ -41,7 +41,38 @@
     </div>
     </nav>
 
-<br><br><br><br><br><br><br>
+    <div class="container">
+      <form  class="form" id="login">
+        <h1 class="form__title">Login</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" autofocus placeholder="Brugernavn eller email">
+            <div class="form__input-error-message"></div>
+        </div>
+
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Kodeord">
+            <div class="form__input-error-message"></div>
+        </div>
+
+        <button class="form__buttom" type="submit">Login</button>
+
+        <p class="form__text">
+        <a href="#" class="form__link">Glemt adgangskode?</a>
+        </p>
+
+        <p class="form__text">
+            <a class="form__link" href="./" id="linkCreateAccount">Ny bruger? Opret en bruger</a>
+        </p>
+    </form>
+
+    </div>
+
+
+
+
+
+<!-- <br><br><br><br><br><br><br>
     <div class="loginform">
       <label for="email"><b>E-mail</b></label>
       <input type="email" placeholder="Din e-mail.." name="email" required>
@@ -64,7 +95,7 @@
         </div>
         <span class="newacc">Ny bruger? <a href="#">Opret en bruger</a></span>
       </div>
-    </div>
+    </div> -->
 
 
 <br><br><br><br><br><br><br>
