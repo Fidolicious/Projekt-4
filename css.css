@@ -115,20 +115,26 @@ hr {
 
 /*....... BANNER ......*/
 
-.reklame {
+
+.reklame2 {
  border: 2px solid #BDD4D5;
  border-radius: 30px;
  margin: 200px 10px 35px 100px;
- width: 458px;
- height: 297px;
-
+ width: 558px;
+ height: 397px;
 }
 
-.reklameboeger {
+.reklameboeger2 {
+
+  position: center;
   border-radius: 8px;
-  float: right;
-  margin: 45px 20px 0 0 ;
+  margin: 100px 0 0 400px;
 }
+
+.boginfo{
+  padding: 50px 0 0 30px;
+}
+
 
 .forsidebanner {
   border: 2px;
@@ -148,12 +154,14 @@ hr {
   margin: -90px 0 0 0 ;
 }
 
+<<<<<<< HEAD
+
+/* .... TIL TOPPEN ..... */
 
 
 
-
-
-
+=======
+>>>>>>> df7522b832d46410b543e6b5da9d7eba833824c4
 /* FOOTER */
 footer {
   background: #BDD4D5;
@@ -245,7 +253,7 @@ footer {
 }
 
 
-/* ........  LOGIN ......... */
+/* ........  LOGIN / OPRET BRUGER ......... */
 body {
   --color-error: #cc3333;
   --color-succes: #4bb544;
@@ -369,6 +377,43 @@ color: #1A444E;
   text-decoration: underline;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 13px 30px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.opretmed {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #A1A3A3;
+}
 /* ........  OPRET BRUGER ......... */
 
 
