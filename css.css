@@ -175,7 +175,6 @@ footer {
 .contact-section {
   background: #BDD4D5;
   background-size: cover;
-  margin-left: 3rem;
 }
 
 
@@ -353,11 +352,11 @@ color: #1A444E;
   border-radius: var(--border-radius);
   outline: none;
   cursor: pointer;
-  background:#93AEAF;
+  background:#275561;
 }
 
 .form__buttom:hover {
-  background: #759293;
+  background: #2d6371;
 }
 
 .form__buttom:active {
