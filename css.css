@@ -229,6 +229,9 @@ footer {
 .copyright {
   text-align: center;
   font-weight: 200;
+  font-size: 13px;
+  background: #BDD4D5;
+  padding-top: 5px;
 }
 
 @media (min-width: 887px) {
