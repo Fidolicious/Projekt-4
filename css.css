@@ -418,10 +418,11 @@ color: #1A444E;
   outline: none;
   cursor: pointer;
   background:#275561;
+  transition: all .3s ease;
 }
 
 .form__buttom:hover {
-  background: #2d6371;
+  background: #2e6776;
 }
 
 .form__buttom:active {
