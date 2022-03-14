@@ -52,7 +52,7 @@ header .sticky {
 }
 
 .logo img {
-    width: 90px;
+    width: 110px;
     margin-top: 10px;
   }
 
@@ -106,7 +106,7 @@ header .sticky {
 
 .menu-list li a {
   color: #fff;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 200;
   margin-left: 0 10px 0 10px;
   text-decoration: none;
