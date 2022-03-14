@@ -34,6 +34,7 @@ body {
   background-color: inherit;
   font: inherit;
   margin: 0;
+  text-align: center;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -56,15 +57,15 @@ body {
   color: white;
 }
 
-.column {
+.menucolumn {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #AAC1C3;
   height: 250px;
 }
 
-.column a {
+.menucolumn a {
   float: none;
   color: black;
   padding: 16px;
@@ -73,12 +74,9 @@ body {
   text-align: left;
 }
 
-.column a:hover {
-  background-color: #ddd;
-}
 
 /* Clear floats after the columns */
-.row:after {
+.menurow:after {
   content: "";
   display: table;
   clear: both;
