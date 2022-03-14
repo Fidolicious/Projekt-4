@@ -222,7 +222,7 @@ inputBox.onkeyup = (e)=>{
         }
         emptyArray = suggestions.filter((data)=>{
             //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
-            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
         });
         emptyArray = emptyArray.map((data)=>{
             // passing return data inside li tag
@@ -319,4 +319,4 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-} 
+}
