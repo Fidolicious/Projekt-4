@@ -83,7 +83,7 @@ header .sticky {
 .navbar {
   z-index: 5;
   width: 100%;
-  padding: 25px 0;
+  padding: 10px 0;
   transition: all .2s ease;
   background: #275561;
 }
@@ -92,7 +92,6 @@ header .sticky {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -10px 0 -10px 0;
 }
 
 .navbar .menu-list{
@@ -101,7 +100,7 @@ header .sticky {
 
 .menu-list li {
   list-style: none;
-  padding: 0 20px 0 20px;
+  padding: 0 100px 0 100px;
 }
 
 .menu-list li a {
@@ -757,7 +756,7 @@ padding: 40px 40px;
 .wrapper{
   max-width: 450px;
   margin-top: -50px;
-  margin-left: 475px;
+  margin-left: 440px;
 }
 
 .wrapper .search-input{
