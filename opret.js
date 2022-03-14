@@ -1,4 +1,6 @@
 // JEANETT //
+console.log("hej");
+
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
   
@@ -33,11 +35,14 @@ function setFormMessage(formElement, type, message) {
         createAccountForm.classList.add("form--hidden");
     });
   
+    console.log("hej2");
+
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
   
   
         setFormMessage(loginForm, "error", "Forkert brugernavn eller adgangskode");
+        
     });
   
     document.querySelectorAll(".form__input").forEach(inputElement => {
