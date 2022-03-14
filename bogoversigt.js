@@ -1,8 +1,9 @@
 // ANNE-SOFIE //
 // Cart
-let heartIcon = document.querySelector("#heart-icon")
-let cart = document.querySelector(".cart")
-let closeCart = document.querySelector("#close-cart")
+let heartIcon = document.querySelector("#heart-icon");
+let cart = document.querySelector(".cart");
+let closeCart = document.querySelector("#close-cart");
+
 // Open Cart
 heartIcon.onclick = () => {
 	cart.classList.add("active");
@@ -45,7 +46,7 @@ function ready(){
 	document.addElementsByClassName("buy-btn")[0].addEventListener("click", buyButtonClicked);
 }
 // Buy Button
-function buyButtonClickked() {
+function buyButtonClicked() {
 	alert("Your Order is placed");
 	var cartContent = document.getElementsByClassName("cart-content")[0];
 	while (cartContent.hasChildNodes()) {
@@ -127,14 +128,3 @@ cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change"
 			document.getElementsByClassName("total-price")[0].innerText = "$" + total;
 
 	}
-
-  // image --animation to cart ---//
-  var image = e.target.parentNode.querySelector('img');
-  var span = e.target.parentNode.querySelector('span');
-  var s_image = image.cloneNode(false);
-  span.appendChild(s_image);
-  span.classList.add("active");
-  setTimeout(()=>{
-    span.classList.remove("active");
-    span.removeChild(s_image);
-  }, 500);

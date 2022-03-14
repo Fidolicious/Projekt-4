@@ -54,3 +54,5 @@ function setFormMessage(formElement, type, message) {
   });
   
   // ........ TIL TOPPEN ....... //
+
+  /* Error meddelser fra et Array */
