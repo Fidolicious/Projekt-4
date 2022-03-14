@@ -129,6 +129,7 @@ hr {
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   top: 150px;
+  z-index: 1000;
 }
 
 .dropdown-content .header {
@@ -151,6 +152,8 @@ hr {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-weight: 200px;
+  font-size: 16px;
 }
 
 .column a:hover {
