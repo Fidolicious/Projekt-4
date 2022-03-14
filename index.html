@@ -10,6 +10,7 @@
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
     <script src="java.js" defer></script>
+    <script src="reklame.js" defer></script>
   </head>
   <body>
 
@@ -27,7 +28,7 @@
             </div>
             <div class="icon"><i class="fas fa-search"></i></div>
           </div>
-        </div>  
+        </div>
       </div>
 
     </header>
@@ -41,14 +42,30 @@
     <nav class="navbar">
       <div class="content">
       <ul class="menu-list">
-
-        <li><a onclick="toggleDropdown()" class="dropbtn" href="#">Business og digital udvikling
-        </a></li>
-
-        <hr>
         <li><a href="#">Business</a></li>
         <hr>
-        <li><a href="#">Digital udvikling</a></li>
+        <li><a onclick="toggleDropdown()" class="dropbtn" href="#">Digital udvikling
+        </a></li>
+        <div id="dropDown"class="dropdown-content">
+          <div class="header">
+            <h2>Digital udvikling</h2>
+          </div>
+          <div class="menurow">
+            <div class="menucolumn">
+              <div class="column">
+                <a href="#">Datamatiker</a>
+                <a href="#">Digital konceptudvikling</a>
+                <a href="#">IT-teknolog</a>
+                <a href="#">IT-sikkerhed</a>
+              </div>
+              <div class="column">
+                <a href="bogoversigt.html" >Multimediedesigner</a>
+                <a href="#">Softwareudvikling</a>
+                <a href="#">Webudvikling</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <hr>
         <li><a href="#">Byggeri</a></li>
         <hr>
@@ -64,38 +81,6 @@
       <h2 class="bannertext">Gå på opdagelse i vores store sortiment af brugte studiebøger</h2>
     </div>
 
-<!-- ABDULLAHIs JS -->
-
-<script>
-var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 7000;	// Time Between Switch
-
-// Image List
-images[0] = "img/billede1.png";
-images[1] = "img/billede2.png";
-images[2] = "img/billede3.png";
-
-// Change Image
-function changeImg(){
-document.slide.src = images[i];
-
-// Check If Index Is Under Max
-if(i < images.length - 1){
-  // Add 1 to Index
-  i++;
-} else {
-  // Reset Back To O
-  i = 0;
-}
-
-// Run function every x seconds
-setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg;
-</script>
 
     <img class="reklameboeger2" name="slide" width="700" height="450" />
 
@@ -134,7 +119,7 @@ window.onload=changeImg;
         </div>
     </footer>
 
-    <script src="suggestions.js"></script>  
+    <script src="suggestions.js"></script>
 
   </body>
 </html>
