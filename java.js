@@ -204,11 +204,11 @@ cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change"
 
 // RUNE //
 function toggleDropdown() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("dropDown").classList.toggle("show");
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.dropdownmenu')) {
+  if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -219,6 +219,7 @@ window.onclick = function(event) {
     }
   }
 }
+
 
 // ABDULLAHI //
 

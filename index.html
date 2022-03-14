@@ -8,9 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
-    <script src="java.js">
-
-    </script>
+    <script src="java.js"></script>
   </head>
   <body>
 
@@ -35,7 +33,9 @@
       <div class="content">
       <ul class="menu-list">
 
-        <li><a href="#">Business og digital udvikling</a></li>
+        <li><a onclick="toggleDropdown()" class="dropbtn" href="#">Business og digital udvikling
+        </a></li>
+
         <hr>
         <li><a href="#">Byggeri og teknologi</a></li>
         <hr>
@@ -122,9 +122,5 @@ window.onload=changeImg;
           <p>&copy; 2022 BookFlip (CVR: 29197849)</p>
         </div>
     </footer>
-
-
-
-  </div>
   </body>
 </html>
