@@ -98,10 +98,12 @@ header .sticky {
 .navbar .menu-list{
   display: inline-flex;
 }
+
 .menu-list li {
   list-style: none;
   padding: 0 20px 0 20px;
 }
+
 .menu-list li a {
   color: #fff;
   font-size: 19px;
@@ -110,9 +112,11 @@ header .sticky {
   text-decoration: none;
   transition: all .3s ease;
 }
+
 .menu-list li a:hover{
   color: #6b9393;
 }
+
 hr {
   border: .5px solid white;
 }
@@ -120,17 +124,17 @@ hr {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #AAC1C3;
   width: 100%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  top: 150px;
 }
 
 .dropdown-content .header {
   background: #275561;
   padding: 16px;
-  color: white;
+  color: #fff;
 }
 
 .column {
@@ -150,10 +154,12 @@ hr {
 }
 
 .column a:hover {
-  background-color: #ddd;
+  background-color: #6b9393;
 }
 
-.show {display: block;}
+.show {
+  display: block;
+}
 
 /*....... BANNER ......*/
 
@@ -457,14 +463,7 @@ color: #1A444E;
   text-align: center;
   color: #A1A3A3;
 }
-/* ........  OPRET BRUGER ......... */
-
-:root {
-  --main-color: #fd4646;
-  --text-color: #1A444E;
-  --bg-color: #fff;
-}
-
+/* ........  Bog Oversigt ......... */
 .container {
 max-width: 1068px;
 margin: auto;
@@ -525,8 +524,6 @@ font-weight: 500;
 color: white;
 }
 .cart-quantity {
-border: 1px solid var(--text-color);
-outline-color: var(--main-color);
 width: 2.4rem;
 text-align: center;
 font-size: 1rem;
@@ -579,7 +576,6 @@ border-radius: 20px;
 }
 .box-text {
   float:right;
-
   margin:3rem;
 }
 
@@ -598,14 +594,13 @@ color: #1A444E;
 font-weight: bold;
 font-size: 18px;
 align-content: center;
-
 }
 .add-cart {
 position: absolute;
 bottom: 0;
 right: 0;
-background: var(--text-color);
-color: var(--bg-color);
+background: #1A444E;
+color: white;
 padding: 10px;
 cursor: pointer;
 border-radius: 10px;
@@ -867,7 +862,7 @@ padding: 40px 40px;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #1A444E;
 }
 
 /* Fading animation */
