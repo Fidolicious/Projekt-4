@@ -124,11 +124,8 @@ hr {
   width: 100%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-<<<<<<< HEAD
-=======
-  top: 150px;
+  top: 140px;
   z-index: 1000;
->>>>>>> db3f668f524ab0b39704f81e39c3cab06093c5b5
 }
 
 .dropdown-content .header {
