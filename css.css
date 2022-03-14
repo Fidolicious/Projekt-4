@@ -529,8 +529,6 @@ font-weight: 500;
 color: white;
 }
 .cart-quantity {
-border: 1px solid var(--text-color);
-outline-color: var(--main-color);
 width: 2.4rem;
 text-align: center;
 font-size: 1rem;
@@ -583,7 +581,6 @@ border-radius: 20px;
 }
 .box-text {
   float:right;
-
   margin:3rem;
 }
 
@@ -602,7 +599,6 @@ color: #1A444E;
 font-weight: bold;
 font-size: 18px;
 align-content: center;
-
 }
 .add-cart {
 position: absolute;
@@ -871,7 +867,7 @@ padding: 40px 40px;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #1A444E;
 }
 
 /* Fading animation */
