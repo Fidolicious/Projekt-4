@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
     <script src="java.js"></script>
@@ -18,14 +19,22 @@
         <a href="index.html" class="logo"><img src="img/bookflip.png" alt="logo"></a>
         <li><a class="opret" href="opret.html">Opret bruger</a></li>
         <li><a class="login" href="login.html">Log ind</a></li>
-        <li> <input class="soeg" type="text" placeholder="Søg på titel, forfatter, emne eller ISBN."></li>
+        <div class="wrapper">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Type to search..">
+            <div class="autocom-box">
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>  
       </div>
 
     </header>
 
     <nav class="udd">
       <div>
-        <h2 class="uddannelser">UDDANNELSER</h2>
+        <h2 class="uddannelser">UDDANNELSER PÅ UCL SEEBLADSGADE</h2>
       </div>
     </nav>
 
@@ -37,13 +46,13 @@
         </a></li>
 
         <hr>
-        <li><a href="#">Byggeri og teknologi</a></li>
+        <li><a href="#">Business</a></li>
         <hr>
-        <li><a href="#">Ledelse og administration</a></li>
+        <li><a href="#">Digital udvikling</a></li>
         <hr>
-        <li><a href="#">Pædagogik og undervisning</a></li>
+        <li><a href="#">Byggeri</a></li>
         <hr>
-        <li><a href="#">Sundhed og socialt arbejde</a></li>
+        <li><a href="#">Teknologi</a></li>
       </ul>
 
     </div>
@@ -54,6 +63,8 @@
       <img class="bogikon" src="img/bogikon.png" width="230" height="230"/>
       <h2 class="bannertext">Gå på opdagelse i vores store sortiment af brugte studiebøger</h2>
     </div>
+
+<!-- ABDULLAHIs JS -->
 
 <script>
 var i = 0; 			// Start Point
@@ -122,5 +133,8 @@ window.onload=changeImg;
           <p>&copy; 2022 BookFlip (CVR: 29197849)</p>
         </div>
     </footer>
+
+    <script src="suggestions.js"></script>  
+
   </body>
 </html>

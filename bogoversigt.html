@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
     <title>BookFlip</title>
     <link rel="stylesheet" href="css.css">
     <script src="java.js"></script>
   </head>
   <body>
     <header>
+
       <div class="topnav">
         <a href="index.html" class="logo"><img src="img/bookflip.png" alt="logo"></a>
-        <li><i class='bx bx-heart' id="heart-icon"></i></li>
         <li><a class="opret" href="opret.html">Opret bruger</a></li>
         <li><a class="login" href="login.html">Log ind</a></li>
-        <li> <input class="soeg" type="text" placeholder="Søg på titel, forfatter, emne eller ISBN."></li>
+        <div class="wrapper">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Type to search..">
+            <div class="autocom-box">
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>  
       </div>
+
     </header>
     <header>
 
@@ -27,7 +36,7 @@
           <h2 class="cart-title">Dine Favoritter</h2>
           <div class="cart-content">
           </div>
-          <i class='bx bx-x' id="close-cart"></i>
+          <i class="bx bx-x" id="close-cart"></i>
         </div>
       </div>
     </header>
