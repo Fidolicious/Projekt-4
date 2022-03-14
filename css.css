@@ -320,6 +320,13 @@ font-size: 15px;
 color: #1A444E;
 }
 
+.form__buttom{
+  color: white;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
 .form--hidden {
   display: none;
 }
