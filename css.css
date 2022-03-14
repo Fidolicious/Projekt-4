@@ -87,7 +87,7 @@ header .sticky {
 .navbar .content {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   margin: -10px 0 -10px 0;
 }
 

@@ -54,6 +54,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// forloop, array, function, variabel, if/else
+
 // ........ TIL TOPPEN ....... //
 
 
