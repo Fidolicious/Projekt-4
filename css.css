@@ -296,6 +296,33 @@ footer {
     font-size: 23px;
   }
 }
+/* 
+@media only screen and (max-width: 600px) {
+  footer {
+    background: #BDD4D5;
+    padding: 126px 20px 0 20px;
+    clip-path: polygon(0 80%, 100% 57%, 100% 100%, 0% 100%);
+    font-size: 12px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .sidsttil {
+    display: none;
+  }
+
+  .reklameboeger2 {
+    position: center;
+    border-radius: 8px;
+    margin: 0 0 0 50px;
+}
+
+  .reklameboeger2 img {
+    width: 200px;
+    height: 100px;
+  } */
 
 
 /* ........  LOGIN / OPRET BRUGER ......... */
