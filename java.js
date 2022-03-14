@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
   loginForm.addEventListener("submit", e => {
       e.preventDefault();
 
-      // Perform your AJAX/Fetch login
 
       setFormMessage(loginForm, "error", "Forkert brugernavn eller adgangskode");
   });
@@ -54,6 +53,11 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
+
+// ........ TIL TOPPEN ....... //
+
+
+
 // ANNE-SOFIE //
 // Cart
 let heartIcon = document.querySelector("#heart-icon")
@@ -197,14 +201,75 @@ cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change"
 
 // NICKLAS //
 
+// getting all required elements
+const searchWrapper = document.querySelector(".search-input");
+const inputBox = searchWrapper.querySelector("input");
+const suggBox = searchWrapper.querySelector(".autocom-box");
+const icon = searchWrapper.querySelector(".icon");
+let linkTag = searchWrapper.querySelector("a");
+let webLink;
+
+// if user press any key and release
+inputBox.onkeyup = (e)=>{
+    let userData = e.target.value; //user enetered data
+    let emptyArray = [];
+    if(userData){
+        icon.onclick = ()=>{
+            webLink = "https://www.google.com/search?q=" + userData;
+            linkTag.setAttribute("href", webLink);
+            console.log(webLink);
+            linkTag.click();
+        }
+        emptyArray = suggestions.filter((data)=>{
+            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
+        });
+        emptyArray = emptyArray.map((data)=>{
+            // passing return data inside li tag
+            return data = '<li>'+ data +'</li>';
+        });
+        searchWrapper.classList.add("active"); //show autocomplete box
+        showSuggestions(emptyArray);
+        let allList = suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //adding onclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }else{
+        searchWrapper.classList.remove("active"); //hide autocomplete box
+    }
+}
+
+function select(element){
+    let selectData = element.textContent;
+    inputBox.value = selectData;
+    icon.onclick = ()=>{
+        webLink = "https://www.bookflip.com/" + selectData;
+        linkTag.setAttribute("href", webLink);
+        linkTag.click();
+    }
+    searchWrapper.classList.remove("active");
+}
+
+function showSuggestions(list){
+    let listData;
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = '<li>'+ userValue +'</li>';
+    }else{
+        listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}
+
 
 // RUNE //
 function toggleDropdown() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("dropDown").classList.toggle("show");
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.dropdownmenu')) {
+  if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -216,37 +281,10 @@ window.onclick = function(event) {
   }
 }
 
+
 // ABDULLAHI //
 
 
-var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 7000;	// Time Between Switch
-
-// Image List
-images[0] = "img/billede1.jpg";
-images[1] = "img/billede2.jpg";
-images[2] = "img/billede3.jpg";
-
-// Change Image
-function changeImg(){
-document.slide.src = images[i];
-
-// Check If Index Is Under Max
-if(i < images.length - 1){
-  // Add 1 to Index
-  i++;
-} else {
-  // Reset Back To O
-  i = 0;
-}
-
-// Run function every x seconds
-setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg;
 
 
 
