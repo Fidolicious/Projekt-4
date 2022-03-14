@@ -46,7 +46,7 @@ function ready(){
 	document.addElementsByClassName("buy-btn")[0].addEventListener("click", buyButtonClicked);
 }
 // Buy Button
-function buyButtonClickked() {
+function buyButtonClicked() {
 	alert("Your Order is placed");
 	var cartContent = document.getElementsByClassName("cart-content")[0];
 	while (cartContent.hasChildNodes()) {
