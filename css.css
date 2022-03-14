@@ -43,6 +43,8 @@ header .sticky {
 
 .login {
   color: #1A444E;
+  margin-right: 20px;
+}
 }
 
 .topnav li a {
@@ -104,7 +106,7 @@ header .sticky {
 
 .menu-list li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 200;
   margin-left: 0 10px 0 10px;
   text-decoration: none;
@@ -209,7 +211,7 @@ hr {
 
 footer {
   background: #BDD4D5;
-  padding: 35px 20px 0 20px;
+  padding: 126px 20px 0 20px;
   clip-path: polygon(0 34%, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -461,14 +463,7 @@ color: #1A444E;
   text-align: center;
   color: #A1A3A3;
 }
-/* ........  OPRET BRUGER ......... */
-
-:root {
-  --main-color: #fd4646;
-  --text-color: #1A444E;
-  --bg-color: #fff;
-}
-
+/* ........  Bog Oversigt ......... */
 .container {
 max-width: 1068px;
 margin: auto;
@@ -604,8 +599,8 @@ align-content: center;
 position: absolute;
 bottom: 0;
 right: 0;
-background: var(--text-color);
-color: var(--bg-color);
+background: #1A444E;
+color: white;
 padding: 10px;
 cursor: pointer;
 border-radius: 10px;
