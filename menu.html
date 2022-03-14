@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>BookFlip</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="java.js"></script>
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Business og digital udvikling
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="dropDown"class="dropdown-content">
+          <div class="header">
+            <h2>Business og digital udvikling</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <h3>Business</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Digital udvikling</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <button onclick="toggleDropdown()" class="dropbtn">Byggeri og teknologi
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <button onclick="toggleDropdown()" class="dropbtn">Ledelse og administration
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <button onclick="toggleDropdown()" class="dropbtn">Pædagogik og undervisning
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <button onclick="toggleDropdown()" class="dropbtn">Sundhed og socialt arbejde
+          <i class="fa fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+
+  </body>
+</html>

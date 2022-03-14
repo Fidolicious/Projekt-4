@@ -113,6 +113,68 @@ hr {
   border: .5px solid white;
 }
 
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: #275561;
+  padding: 16px;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.show {display: block;}
+
 /*....... BANNER ......*/
 
 
@@ -154,6 +216,17 @@ hr {
   margin: -90px 0 0 0 ;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+/* .... TIL TOPPEN ..... */
+
+
+
+=======
+>>>>>>> df7522b832d46410b543e6b5da9d7eba833824c4
+=======
+>>>>>>> df7522b832d46410b543e6b5da9d7eba833824c4
 /* FOOTER */
 footer {
   background: #BDD4D5;
@@ -164,7 +237,6 @@ footer {
 .contact-section {
   background: #BDD4D5;
   background-size: cover;
-  margin-left: 3rem;
 }
 
 
@@ -219,6 +291,9 @@ footer {
 .copyright {
   text-align: center;
   font-weight: 200;
+  font-size: 13px;
+  background: #BDD4D5;
+  padding-top: 5px;
 }
 
 @media (min-width: 887px) {
@@ -245,7 +320,7 @@ footer {
 }
 
 
-/* ........  LOGIN ......... */
+/* ........  LOGIN / OPRET BRUGER ......... */
 body {
   --color-error: #cc3333;
   --color-succes: #4bb544;
@@ -342,11 +417,12 @@ color: #1A444E;
   border-radius: var(--border-radius);
   outline: none;
   cursor: pointer;
-  background:#93AEAF;
+  background:#275561;
+  transition: all .3s ease;
 }
 
 .form__buttom:hover {
-  background: #759293;
+  background: #2e6776;
 }
 
 .form__buttom:active {
@@ -369,6 +445,43 @@ color: #1A444E;
   text-decoration: underline;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 13px 30px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.opretmed {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #A1A3A3;
+}
 /* ........  OPRET BRUGER ......... */
 
 
