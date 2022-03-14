@@ -59,7 +59,8 @@ header .sticky {
  .topnav input[type=text] {
     align-items: center;
     justify-content: end;
-    font-size: 15px;
+    font-size: 14px;
+    color: rgba(38, 38, 38, 0.705);
     font-weight: 100;
     padding: 7px 100px 7px 7px;
     border-color: none;
@@ -123,11 +124,8 @@ hr {
   width: 100%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-<<<<<<< HEAD
-=======
-  top: 150px;
+  top: 140px;
   z-index: 1000;
->>>>>>> db3f668f524ab0b39704f81e39c3cab06093c5b5
 }
 
 .dropdown-content .header {
@@ -771,7 +769,7 @@ padding: 40px 40px;
   border: none;
   border-radius: 5px;
   padding: 0 60px 0 20px;
-  font-size: 18px;
+  font-size: 16px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.043);
 }
 
@@ -818,13 +816,13 @@ padding: 40px 40px;
   text-align: center;
   line-height: 55px;
   font-size: 20px;
-  color: #000;
+  color: rgba(38, 38, 38, 0.705);
   cursor: pointer;
 }
 
 .soge {
   margin: 0;
-  padding: 0;
+  padding: 0 17px 0 0;
   font-size: 20px;
   cursor: pointer;
 }
