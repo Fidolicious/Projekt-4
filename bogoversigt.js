@@ -80,6 +80,47 @@ function addCartClicked(event) {
 	addProductToCart(title, price, productImg);
 	updatetotal();
 }
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = 'salmon';
+  btn.style.color = 'white';
+	});
+
+const btn2 = document.getElementById('btn2');
+
+btn2.addEventListener('click', function onClick() {
+	  btn2.style.backgroundColor = 'salmon';
+	  btn2.style.color = 'white';
+		});
+
+const btn3 = document.getElementById('btn3');
+
+btn3.addEventListener('click', function onClick() {
+		btn3.style.backgroundColor = 'salmon';
+		btn3.style.color = 'white';
+		});
+
+		const btn4 = document.getElementById('btn4');
+
+		btn4.addEventListener('click', function onClick() {
+		  btn4.style.backgroundColor = 'salmon';
+		  btn4.style.color = 'white';
+			});
+
+		const btn5 = document.getElementById('btn5');
+
+		btn5.addEventListener('click', function onClick() {
+			  btn5.style.backgroundColor = 'salmon';
+			  btn5.style.color = 'white';
+				});
+
+		const btn6 = document.getElementById('btn6');
+
+		btn6.addEventListener('click', function onClick() {
+				btn6.style.backgroundColor = 'salmon';
+				btn6.style.color = 'white';
+				});
 
 function addProductToCart(title, price, productImg) {
 	var cartShopBox = document.createElement("div");
