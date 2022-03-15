@@ -20,7 +20,7 @@ html {
 
 header {
     background-color: #BDD4D5;
-    padding: 10px;
+    padding: 10px
 }
 header .sticky {
     padding: 10px 0;
@@ -160,60 +160,37 @@ hr {
   display: block;
 }
 
+/*....... Breadcrumbs ......*/
+ul.breadcrumb {
+  padding: 10px 8px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
 /*....... BANNER ......*/
 
-/* .sidsttil {
+.sidsttil {
   margin: 40px 0 0 150px;
 
-} */
-
-
-/* ....... SIDST TILFØJET BØGER ........ */
-.forsidekasser {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  align-content: center;
 }
 
 
-.tilboger {
-  font-size: 25px;
-  font-weight: 200;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.sidsttilfojet {
-  display: inline-flex;
-  flex-direction: row;
-  border: 2px solid #BDD4D5;
-  height: 250px;
-  width: 350px;
-  border-radius: 20px;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 40px;
-}
-
-img.forsidebog1 {
-  height: 170px;
-  width: 100px;
-  margin-right: 20px;
-}
-
-img.forsidebog2 {
-  height: 170px;
-  width: 100px;
-  margin-right: 20px;
-  }
-
-
-p.textbog1 {
-  font-size: 13px;
-}
 
 .reklameboeger2 {
 
