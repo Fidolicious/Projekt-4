@@ -296,7 +296,7 @@ footer {
     font-size: 23px;
   }
 }
-/* 
+/*
 @media only screen and (max-width: 600px) {
   footer {
     background: #BDD4D5;
@@ -676,6 +676,8 @@ padding: 40px 40px;
 .profilepic{
   float: right;
   margin-top: -50px;
+  width: 100px;
+  height: auto;
 }
 
 .moreads{
