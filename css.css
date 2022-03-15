@@ -664,9 +664,6 @@ font-size: 24px;
 color: white;
 cursor: pointer;
 }
-#bx-heart {
-  font-size: 2rem;
-}
 
 #close-cart {
 position: absolute;
@@ -758,6 +755,12 @@ background: grey;
 
 #myBtn:hover {
   background-color: #555;
+}
+
+.bxs-trash-alt {
+  border-style: none;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 

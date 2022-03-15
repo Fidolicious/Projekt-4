@@ -176,7 +176,7 @@ var cartBoxContent = `
 										<div class="cart-price">${price}</div>
 										<input type="number" value="1" class="cart-quantity">
 								</div>
-								<i class='bx bxs-trash-alt cart-remove'></i>`;
+								<button class='bx bxs-trash-alt cart-remove'></button>`;
 
 cartShopBox.innerHTML = cartBoxContent;
 cartItems.append(cartShopBox);
@@ -204,7 +204,7 @@ cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change"
 
 	}
 
-	//Get the button:
+//Get the button:
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -218,8 +218,8 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When click, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
