@@ -590,11 +590,51 @@ nav ul li a:hover
     padding: 10px;
     text-align: center;
 }
-    .knapper-container > div
-    {
-        padding: 20px 0;
-        margin-bottom: 20px;
-    }
+.knapper-container > div
+{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.opret
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#myBtn
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.cart-remove
+{
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+
+.wrapper
+{
+    grid-column-start: 6;
+    grid-column-end: 13;
+}
+
+
+
+/* KNAPPER MED CSS SOM KUN SKAL VÆRE PÅ STYLE GUIDE */
+
+.cart-remove
+{
+    border-style: none;
+    background-color: #1A444E;
+}
+
+.close-cart
+{
+    border-style: none;
+    background-color: #1A444E;
+}
 
 /*Breakpoints go below here*/
 
