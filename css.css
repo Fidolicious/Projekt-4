@@ -601,6 +601,8 @@ width: 100%;
 
 #heart-icon {
 font-size: 1.8rem;
+border-style: none;
+background-color: inherit;
 cursor: pointer;
 }
 /* ...........................Cart......................... */
