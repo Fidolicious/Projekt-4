@@ -45,7 +45,7 @@ header .sticky {
   color: #1A444E;
   margin-right: 20px;
 }
-}
+
 
 .topnav li a {
   text-decoration: none;
@@ -208,7 +208,8 @@ ul.breadcrumb li a:hover {
   font-size: 25px;
   font-weight: 200;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 43px;
+  margin-left: 242px;
 }
 
 .sidsttilfojet {
@@ -571,12 +572,7 @@ color: #1A444E;
   color: #A1A3A3;
 }
 
-#fejl1 {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-  width: 300px;
-}
+
 
 .closebtn {
   margin-left: 15px;

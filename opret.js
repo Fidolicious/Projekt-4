@@ -1,5 +1,12 @@
 // JEANETT //
 
+  /* Error meddelser fra et Array */
+
+var myArray = [
+    'Du kan nu logge ind',
+    'Du kan nu oprette en bruger', 
+]    
+
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
   
@@ -26,12 +33,14 @@ function setFormMessage(formElement, type, message) {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
         createAccountForm.classList.remove("form--hidden");
+        console.log(myArray[1]); 
     });
   
     document.querySelector("#linkLogin").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.remove("form--hidden");
         createAccountForm.classList.add("form--hidden");
+        console.log(myArray[0]); 
     });
   
 
@@ -57,16 +66,6 @@ function setFormMessage(formElement, type, message) {
   });
   
 
-  /* Error meddelser fra et Array */
 
-  var myArray = [
-    'Du kan nu logge ind',
-    'Du kan nu oprette en bruger', 
-]
 
-$('.linkCreateAccount').click(function() {
-    $('.alert').removeClass("hide");
-});
-
-// document.getElementById("fejl").innerHTML = myArray;
 
