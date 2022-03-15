@@ -168,10 +168,14 @@ hr {
 
 @media screen and (max-width: 600px) {
   .navbar .content{
-    display: none;
+    display: inline-flexbox;
   } 
-  
-  
+  hr {
+    display: none;
+  }
+  .menu-list li {
+    list-style: none;
+    padding: 0 15px 0 10px;
   
 }
 
@@ -601,11 +605,12 @@ color: #1A444E;
 
 @media screen and (max-width: 600px) {
   .opret {
-    display: none;
+    font-size: 13px;
+    margin-right: 20px;
   }
 
   .login {
-    display: none;
+    font-size: 13px;
   }
 }
 
