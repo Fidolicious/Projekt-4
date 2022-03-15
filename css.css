@@ -763,6 +763,12 @@ background: grey;
   cursor: pointer;
 }
 
+.bx-x {
+  border-style: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
 
 /*..................... Bog information ..................*/
 .bookinfo{
