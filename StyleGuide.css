@@ -1,4 +1,4 @@
-.opret 
+.opret
 {
     font-weight: 300;
     color: #fff;
@@ -16,7 +16,7 @@
     color: #fff;
     background: #000;
   }
-  
+
 .wrapper
 {
     max-width: 350px;
@@ -99,7 +99,7 @@
     cursor: pointer;
 }
 
-.soge 
+.soge
 {
     margin: 0;
     padding: 0 17px 0 0;
@@ -109,7 +109,7 @@
 
 /* TOP KNAP */
 
-#myBtn 
+#myBtn
 {
     display: none;
     bottom: 20px;
@@ -123,7 +123,7 @@
     border-radius: 10px;
     font-size: 18px;
 }
-  
+
 #myBtn:hover
 {
     background-color: #555;
@@ -131,7 +131,7 @@
 
 /* FAVORIT KNAP */
 
-.add-cart 
+.add-cart
 {
     bottom: 0;
     right: 0;
@@ -142,7 +142,7 @@
     border-radius: 10px;
 }
 
-.add-cart:hover 
+.add-cart:hover
 {
     background: grey;
 }
@@ -153,7 +153,7 @@
 
 /* SKRALDESPAND KNAP TIL AT SLETTE FAVOURITE  */
 
-.cart-remove 
+.cart-remove
 {
     font-size: 24px;
     color: white;
