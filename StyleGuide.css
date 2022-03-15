@@ -1,0 +1,161 @@
+.opret 
+{
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    border: solid 1px #93AEAF;
+    background: #93AEAF;
+    padding: 6px 10px 6px 10px;
+    border-radius: 20px;
+  }
+
+/* .........................search bar....................... */
+
+::selection
+{
+    color: #fff;
+    background: #000;
+  }
+  
+.wrapper
+{
+    max-width: 350px;
+    margin-top: -50px;
+    margin-left: 440px;
+}
+
+.wrapper .search-input
+{
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+
+.search-input input
+{
+    height: 40px;
+    width: 75%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 16px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.043);
+}
+
+.search-input.active input
+{
+    border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box
+{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box
+{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li
+{
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.search-input.active .autocom-box li
+{
+    display: block;
+}
+.autocom-box li:hover
+{
+    background: #f2f2f2;
+}
+
+.search-input .icon
+{
+    position: absolute;
+    right: -7px;
+    top: -6px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: rgba(38, 38, 38, 0.705);
+    cursor: pointer;
+}
+
+.soge 
+{
+    margin: 0;
+    padding: 0 17px 0 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* TOP KNAP */
+
+#myBtn 
+{
+    display: none;
+    bottom: 20px;
+    z-index: 10000;
+    border: none;
+    outline: none;
+    background-color: #1A444E;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+  
+#myBtn:hover
+{
+    background-color: #555;
+}
+
+/* FAVORIT KNAP */
+
+.add-cart 
+{
+    bottom: 0;
+    right: 0;
+    background: #1A444E;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.add-cart:hover 
+{
+    background: grey;
+}
+
+/* X KNAP TIL AT LUKKE KURVEN */
+
+
+
+/* SKRALDESPAND KNAP TIL AT SLETTE FAVOURITE  */
+
+.cart-remove 
+{
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
