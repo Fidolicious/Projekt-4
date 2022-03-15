@@ -741,7 +741,7 @@ border-radius: 10px;
 .add-cart:hover {
 background: grey;
 }
-
+/*..................... G To Top Button ..................*/
 #myBtn {
   display: none;
   position: fixed;

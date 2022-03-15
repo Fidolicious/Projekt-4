@@ -80,47 +80,83 @@ function addCartClicked(event) {
 	addProductToCart(title, price, productImg);
 	updatetotal();
 }
+// Button Effect
 const btn = document.getElementById('btn');
 
+let index = 0;
+
+const colors = ['salmon', '#1A444E'];
+
 btn.addEventListener('click', function onClick() {
-  btn.style.backgroundColor = 'salmon';
+  btn.style.backgroundColor = colors[index];
   btn.style.color = 'white';
-	});
+
+  index = index >= colors.length - 1 ? 0 : index + 1;
+});
 
 const btn2 = document.getElementById('btn2');
 
+let index2 = 0;
+
+const colors2 = ['salmon', '#1A444E'];
+
 btn2.addEventListener('click', function onClick() {
-	  btn2.style.backgroundColor = 'salmon';
-	  btn2.style.color = 'white';
-		});
+  btn2.style.backgroundColor = colors2[index2];
+  btn2.style.color = 'white';
+
+  index2 = index2 >= colors2.length - 1 ? 0 : index2 + 1;
+});
 
 const btn3 = document.getElementById('btn3');
 
+let index3 = 0;
+
+const colors3 = ['salmon', '#1A444E'];
+
 btn3.addEventListener('click', function onClick() {
-		btn3.style.backgroundColor = 'salmon';
-		btn3.style.color = 'white';
-		});
+  btn3.style.backgroundColor = colors3[index3];
+  btn3.style.color = 'white';
 
-		const btn4 = document.getElementById('btn4');
+  index3 = index3 >= colors3.length - 1 ? 0 : index3 + 1;
+});
 
-		btn4.addEventListener('click', function onClick() {
-		  btn4.style.backgroundColor = 'salmon';
-		  btn4.style.color = 'white';
-			});
+const btn4 = document.getElementById('btn4');
 
-		const btn5 = document.getElementById('btn5');
+let index4 = 0;
 
-		btn5.addEventListener('click', function onClick() {
-			  btn5.style.backgroundColor = 'salmon';
-			  btn5.style.color = 'white';
-				});
+const colors4 = ['salmon', '#1A444E'];
 
-		const btn6 = document.getElementById('btn6');
+btn4.addEventListener('click', function onClick() {
+  btn4.style.backgroundColor = colors4[index4];
+  btn4.style.color = 'white';
 
-		btn6.addEventListener('click', function onClick() {
-				btn6.style.backgroundColor = 'salmon';
-				btn6.style.color = 'white';
-				});
+  index4 = index4 >= colors4.length - 1 ? 0 : index4 + 1;
+});
+const btn5 = document.getElementById('btn5');
+
+let index5 = 0;
+
+const colors5 = ['salmon', '#1A444E'];
+
+btn5.addEventListener('click', function onClick() {
+  btn5.style.backgroundColor = colors5[index5];
+  btn5.style.color = 'white';
+
+  index5 = index5 >= colors5.length - 1 ? 0 : index5 + 1;
+});
+
+const btn6 = document.getElementById('btn6');
+
+let index6 = 0;
+
+const colors6 = ['salmon', '#1A444E'];
+
+btn6.addEventListener('click', function onClick() {
+  btn6.style.backgroundColor = colors6[index6];
+  btn6.style.color = 'white';
+
+  index6 = index6 >= colors6.length - 1 ? 0 : index6 + 1;
+});
 
 function addProductToCart(title, price, productImg) {
 	var cartShopBox = document.createElement("div");
@@ -129,7 +165,6 @@ function addProductToCart(title, price, productImg) {
 	var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
 	for (var i = 0; i < cartItemsNames.length; i++) {
 		if (cartItemsNames [i].innerText == title) {
-		alert("Denne bog er allerede i dine favoritter");
 		return;
 	}
 }
