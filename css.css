@@ -188,23 +188,33 @@ ul.breadcrumb li a:hover {
 
 /*.................. BANNER .......................*/
 
-.sidsttil {
+/* .sidsttil {
   margin: 40px 0 0 150px;
 
+} */
+
+
+/* ....... SIDST TILFØJET BØGER ........ */
+.forsidekasser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
 }
+
 
 .tilboger {
   font-size: 25px;
   font-weight: 200;
   text-align: center;
   margin-top: 40px;
-  margin-left: 266px;
 }
 
 .sidsttilfojet {
   display: inline-flex;
   flex-direction: row;
-  border: 1px solid #BDD4D5;
+  border: 2px solid #BDD4D5;
   height: 250px;
   width: 350px;
   border-radius: 20px;
@@ -214,10 +224,24 @@ ul.breadcrumb li a:hover {
   margin-top: 40px;
 }
 
-p.textbog1 {
-  font-size: 13px;
-  margin: 0px 10px 30px;
+img.forsidebog1 {
+  height: 170px;
+  width: 100px;
+  margin-right: 20px;
 }
+
+img.forsidebog2 {
+  height: 170px;
+  width: 100px;
+  margin-right: 20px;
+  }
+
+  p.textbog1 {
+    font-size: 13px;
+    margin: 0px 10px 30px;
+  }
+
+
 
 
 
