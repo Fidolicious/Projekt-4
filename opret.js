@@ -60,9 +60,8 @@ function setFormMessage(formElement, type, message) {
   /* Error meddelser fra et Array */
 
   var myArray = [
-    'Der er opstået en fejl, prøv igen senere.',
-    'Fejl 500', 
-    'Fejl 404'
+    'Du kan nu logge ind',
+    'Du kan nu oprette en bruger', 
 ]
 
 
