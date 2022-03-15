@@ -166,17 +166,18 @@ hr {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .navbar .content{
     display: inline-flexbox;
   } 
   hr {
     display: none;
-  }
+  } 
   .menu-list li {
     list-style: none;
     padding: 0 15px 0 10px;
   
+}  
 }
 
 /*..................... Breadcrumbs ....................*/
@@ -256,11 +257,11 @@ img.forsidebog2 {
     margin: 0px 10px 30px;
   }
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .sidsttilfojet {
   height: 250px;
   width: 350px;
-}
+} 
 
   .forsidekasser {
     display: flex;
@@ -280,7 +281,6 @@ img.forsidebog2 {
 
   .reklameboeger2 {
     display: none;
-    
   }
   
 }
@@ -612,7 +612,7 @@ color: #1A444E;
   .login {
     font-size: 13px;
   }
-}
+*/
 
 
 
