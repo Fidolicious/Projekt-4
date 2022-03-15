@@ -177,6 +177,22 @@ ul.breadcrumb li+li:before {
 
 }
 
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/*.................. BANNER .......................*/
+
+.sidsttil {
+  margin: 40px 0 0 150px;
+
+}
+
 .tilboger {
   font-size: 25px;
   font-weight: 200;
@@ -196,21 +212,6 @@ ul.breadcrumb li+li:before {
   align-items: center;
   margin-left: 40px;
   margin-top: 40px;
-}
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-
-/*.................. BANNER .......................*/
-
-.sidsttil {
-  margin: 40px 0 0 150px;
-
 }
 
 p.textbog1 {

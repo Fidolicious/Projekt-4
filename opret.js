@@ -64,6 +64,9 @@ function setFormMessage(formElement, type, message) {
     'Du kan nu oprette en bruger', 
 ]
 
+$('.linkCreateAccount').click(function() {
+    $('.alert').removeClass("hide");
+});
 
-document.getElementById("fejl").innerHTML = myArray;
+// document.getElementById("fejl").innerHTML = myArray;
 
