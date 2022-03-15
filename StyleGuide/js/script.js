@@ -9,7 +9,8 @@ $('a[href*="#"]').on('click', function (e) {
 	//Get the button:
     mybutton = document.getElementById("myBtn");
 
-    // When the user scrolls down 20px from the top of the document, show the button
+    /* 20px nede vil knappen blive vist  */
+
     window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
@@ -20,7 +21,8 @@ $('a[href*="#"]').on('click', function (e) {
       }
     }
     
-    // When the user clicks on the button, scroll to the top of the document
+  
+  /*   Når man klikker på knappen vil man komme tilbage til toppen */
     function topFunction() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
