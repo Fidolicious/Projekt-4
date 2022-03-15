@@ -30,12 +30,7 @@ function ready(){
 		var button = reomveCartButtons[i]
 		button.addEventListener("click", removeCartItem);
 	}
-	//Quantity Changes
-	var quantityInputs = document.getElementsByClassName("cart-quantity");
-	for (var i = 0; i < quantityInputs.length; i++) {
-		var input = quantityInputs[i];
-		input.addEventListener("change", quantityChanged);
-	}
+
 	// Add To Cart
 	var addCart = document.getElementsByClassName("add-cart");
 	for (var i = 0; i < addCart.length; i++) {
@@ -44,31 +39,14 @@ function ready(){
 	}
 
 }
-// Buy Button
-function buyButtonClicked() {
-	alert("Your Order is placed");
-	var cartContent = document.getElementsByClassName("cart-content")[0];
-	while (cartContent.hasChildNodes()) {
-		cartContent.removeChild(cartContent.firstChild);
-	}
-}
-
 
 
 	// Reomve Items From Cart
 	function removeCartItem(event) {
 		var buttonClicked = event.target;
 		buttonClicked.parentElement.remove();
-		updatetotal();
 	}
-	// Qantity Changes
-	function quantityChanged(event) {
-		var input = event.target;
-		if (isNaN(input.value) || input.value <= 0) {
-			input.value = 1;
-		}
-		updatetotal();
-	}
+
 
 // Add To cart
 function addCartClicked(event) {
@@ -78,86 +56,64 @@ function addCartClicked(event) {
 	var price = shopProducts.getElementsByClassName("price")[0].innerText;
 	var productImg = shopProducts.getElementsByClassName("product-img")[0].src;
 	addProductToCart(title, price, productImg);
-	updatetotal();
 }
+
 // Button Effect
 const btn = document.getElementById('btn');
-
 let index = 0;
-
 const colors = ['salmon', '#1A444E'];
-
 btn.addEventListener('click', function onClick() {
   btn.style.backgroundColor = colors[index];
   btn.style.color = 'white';
-
   index = index >= colors.length - 1 ? 0 : index + 1;
 });
 
 const btn2 = document.getElementById('btn2');
-
 let index2 = 0;
-
 const colors2 = ['salmon', '#1A444E'];
-
 btn2.addEventListener('click', function onClick() {
   btn2.style.backgroundColor = colors2[index2];
   btn2.style.color = 'white';
-
   index2 = index2 >= colors2.length - 1 ? 0 : index2 + 1;
 });
 
 const btn3 = document.getElementById('btn3');
-
 let index3 = 0;
-
 const colors3 = ['salmon', '#1A444E'];
-
 btn3.addEventListener('click', function onClick() {
   btn3.style.backgroundColor = colors3[index3];
   btn3.style.color = 'white';
-
   index3 = index3 >= colors3.length - 1 ? 0 : index3 + 1;
 });
 
 const btn4 = document.getElementById('btn4');
-
 let index4 = 0;
-
 const colors4 = ['salmon', '#1A444E'];
-
 btn4.addEventListener('click', function onClick() {
   btn4.style.backgroundColor = colors4[index4];
-  btn4.style.color = 'white';
-
+  btn4.style.color = 'white'
   index4 = index4 >= colors4.length - 1 ? 0 : index4 + 1;
 });
+
 const btn5 = document.getElementById('btn5');
-
 let index5 = 0;
-
 const colors5 = ['salmon', '#1A444E'];
-
 btn5.addEventListener('click', function onClick() {
   btn5.style.backgroundColor = colors5[index5];
   btn5.style.color = 'white';
-
   index5 = index5 >= colors5.length - 1 ? 0 : index5 + 1;
 });
 
 const btn6 = document.getElementById('btn6');
-
 let index6 = 0;
-
 const colors6 = ['salmon', '#1A444E'];
-
 btn6.addEventListener('click', function onClick() {
   btn6.style.backgroundColor = colors6[index6];
   btn6.style.color = 'white';
-
   index6 = index6 >= colors6.length - 1 ? 0 : index6 + 1;
 });
 
+// Copy to cart
 function addProductToCart(title, price, productImg) {
 	var cartShopBox = document.createElement("div");
 	cartShopBox.classList.add("cart-box");
@@ -185,29 +141,10 @@ cartShopBox.getElementsByClassName("cart-quantity")[0].addEventListener("change"
 }
 
 
-	// Update Total
-	function updatetotal() {
-		var cartContent = document.getElementsByClassName("cart-content")[0];
-		var cartBoxes = cartContent.getElementsByClassName("cart-box");
-		var total = 0;
-		for (var i = 0; i < cartBoxes.length; i++) {
-			var cartBox = cartBoxes[i];
-			var priceElement = cartBox.getElementsByClassName("cart-price")[0];
-			var quantityElement = cartBox.getElementsByClassName("cart-quantity")[0];
-			var price = parseFloat(priceElement.innerText.replace("$", ""));
-			var quantity = quantityElement.value;
-			total = total + price * quantity;
-			// If price Contain some Cents Value
-			total = Math.round(total * 100) / 100;
-			}
-			document.getElementsByClassName("total-price")[0].innerText = "$" + total;
-
-	}
-
-//Get the button:
+//To the top button
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -218,7 +155,6 @@ function scrollFunction() {
   }
 }
 
-// When click, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
