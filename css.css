@@ -16,11 +16,11 @@ html {
   margin: auto;
   padding: 0px 30px;
 }
-/* FØRSTE HEADER */
+/* ..............................FØRSTE HEADER............................ */
 
 header {
     background-color: #BDD4D5;
-    padding: 10px;
+    padding: 10px
 }
 header .sticky {
     padding: 10px 0;
@@ -65,7 +65,7 @@ header .sticky {
     padding: 7px 100px 7px 7px;
     border-color: none;
  }
-/* UDDANNELSER */
+/* ...................UDDANNELSER..................... */
 .udd {
   color: #BDD4D5;
   background-color:#1A444E;
@@ -79,7 +79,7 @@ header .sticky {
   color: white;
 }
 
-/* NAVIGATION */
+/* ......................NAVIGATION .....................*/
 
 .navbar {
   z-index: 5;
@@ -160,7 +160,31 @@ hr {
   display: block;
 }
 
-/*....... BANNER ......*/
+/*..................... Breadcrumbs ....................*/
+
+ul.breadcrumb {
+  padding: 10px 8px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/*.................. BANNER .......................*/
 
 .sidsttil {
   margin: 40px 0 0 150px;
@@ -204,7 +228,7 @@ hr {
 
 
 
-/* FOOTER */
+/*....................... FOOTER........................... */
 
 footer {
   background: #BDD4D5;
@@ -325,7 +349,7 @@ footer {
   } */
 
 
-/* ........  LOGIN / OPRET BRUGER ......... */
+/* ....................  LOGIN / OPRET BRUGER .................... */
 body {
   --color-error: #cc3333;
   --color-succes: #4bb544;
@@ -494,7 +518,7 @@ color: #1A444E;
   text-align: center;
   color: #A1A3A3;
 }
-/* ........  Bog Oversigt ......... */
+/* .........................  Bog Oversigt ........................ */
 .container {
 max-width: 1068px;
 margin: auto;
@@ -505,7 +529,7 @@ width: 100%;
 font-size: 1.8rem;
 cursor: pointer;
 }
-/* Cart */
+/* ...........................Cart......................... */
 .cart {
 position: fixed;
 top: 0;
@@ -586,7 +610,7 @@ color: #1A444E;
 margin-top: 2rem;
 }
 
-/* Shop Content */
+/* ....................Shop Content .....................*/
 .shop-content {
 display: grid;
 gap: 1.5rem;
@@ -641,7 +665,7 @@ background: grey;
 }
 
 
-/*.......... Bog information ...........*/
+/*..................... Bog information ..................*/
 .bookinfo{
 width: auto;
 padding: 40px 40px;
@@ -692,7 +716,7 @@ padding: 40px 40px;
   margin-left: 40px;
 }
 
-/* r */
+/*..................... slideshow ......................*/
 .slideshow-container {
   max-width: 200px;
   position: relative;
@@ -759,7 +783,7 @@ padding: 40px 40px;
   background-color: #1A444E;
 }
 
-/* Fading animation */
+/* .........................Fading animation...................... */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -777,7 +801,7 @@ padding: 40px 40px;
   to {opacity: 1}
 }
 
-/* search bar */
+/* .........................search bar....................... */
 
 ::selection{
   color: #fff;
