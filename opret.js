@@ -1,5 +1,4 @@
 // JEANETT //
-console.log("hej");
 
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
@@ -35,7 +34,6 @@ function setFormMessage(formElement, type, message) {
         createAccountForm.classList.add("form--hidden");
     });
   
-    console.log("hej2");
 
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
@@ -58,6 +56,15 @@ function setFormMessage(formElement, type, message) {
     });
   });
   
-  // ........ TIL TOPPEN ....... //
 
   /* Error meddelser fra et Array */
+
+  var myArray = [
+    'Der er opstået en fejl, prøv igen senere.',
+    'Fejl 500', 
+    'Fejl 404'
+]
+
+
+document.getElementById("fejl").innerHTML = myArray;
+

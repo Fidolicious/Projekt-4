@@ -183,12 +183,13 @@ hr {
   font-weight: 200;
   text-align: center;
   margin-top: 40px;
+  margin-left: 266px;
 }
 
 .sidsttilfojet {
   display: inline-flex;
   flex-direction: row;
-  border: 2px solid #BDD4D5;
+  border: 1px solid #BDD4D5;
   height: 250px;
   width: 350px;
   border-radius: 20px;
@@ -213,6 +214,7 @@ img.forsidebog2 {
 
 p.textbog1 {
   font-size: 13px;
+  margin: 0px 10px 30px;
 }
 
 .reklameboeger2 {
@@ -540,6 +542,32 @@ color: #1A444E;
   text-align: center;
   color: #A1A3A3;
 }
+
+#fejl1 {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  width: 300px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+
+
 /* ........  Bog Oversigt ......... */
 .container {
 max-width: 1068px;
