@@ -37,8 +37,14 @@ header .sticky {
 
 
 .login {
+  float: right;
   color: #1A444E;
   margin-right: 20px;
+  padding: 6px 10px;
+}
+
+.opret{
+  float: right;
 }
 
 
@@ -102,19 +108,21 @@ header .sticky {
 .navbar .menu-list{
   display: inline-flex;
 }
-.menu-list li {
+
+.menu-list {
   list-style: none;
-  padding: 0 100px 0 100px;
 }
-.menu-list li a {
+
+.menu-list a {
   color: #fff;
   font-size: 17px;
   font-weight: 200;
   margin-left: 10px;
   text-decoration: none;
   transition: all .3s ease;
+  padding: 0 100px 0 100px;
 }
-.menu-list li a:hover{
+.menu-list a:hover{
   color: #6b9393;
 }
 hr {
@@ -175,7 +183,7 @@ hr {
   .menu-list li {
     list-style: none;
     padding: 0 15px 0 10px;
-  
+
 } */
 
 /*..................... Breadcrumbs ....................*/
@@ -279,7 +287,7 @@ img.forsidebog2 {
 
   .reklameboeger2 {
     display: none;
-    
+
   }
 
 } */
@@ -625,6 +633,7 @@ font-size: 1.8rem;
 border-style: none;
 background-color: inherit;
 cursor: pointer;
+float: right;
 }
 /* ...........................Cart......................... */
 .cart {
@@ -938,7 +947,7 @@ padding: 40px 40px;
 }
 
 
-/* 
+/*
 @media (max-width: 844px) {
   .wrapper{
     max-width: 125px;
